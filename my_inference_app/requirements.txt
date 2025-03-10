@@ -1,0 +1,7 @@
+wheel
+gunicorn
+flask
+requests
+transformers
+torch
+torchvision
