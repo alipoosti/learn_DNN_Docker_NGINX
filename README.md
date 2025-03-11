@@ -1,12 +1,12 @@
-**Author:** Alireza Poostindouz
+**Author:** Ali Poosti
 
 **Contact:** alipoosti01@gmail.com
 
 **Date:** Sept 8, 2023
 
-# MODEL DEPLOYMENT DEMONSTRATION
+# Lerning DNN inference, Docker and Nginx
 
-In this part we have: 
+In this project we have: 
 
 - Explanation of how to create a container to process inference requests from a pretrained model in the huggingface model hub: [https://huggingface.co/models](https://huggingface.co/models). 
 - Explanation of how to include server components to support multiple parallel incoming requests. 
@@ -17,7 +17,9 @@ Files and source codes for the above parts are each separated in the three folde
 
 ## The inference app
 
-First, let's choose a suitable model for demonstrating a common ML inference task. To do so, I chose *Image Classification* task and chose  `ResNet50` from [https://huggingface.co/microsoft/resnet-50](https://huggingface.co/microsoft/resnet-50) from model hub since it is one of the most popular models for image classification. Another reason as to why I chose this task is I want to test ResNet on multiple pictures I have from my own lovely cat **Cammie**. Here is an example photo of her. 😍
+First, let's choose a suitable model for demonstrating a common ML inference task. To do so, I chose *Image Classification* task and chose  `ResNet50` from [https://huggingface.co/microsoft/resnet-50](https://huggingface.co/microsoft/resnet-50) from model hub since it is one of the most popular models for image classification. 
+
+We are going to test ResNet on multiple pictures, including pictures from my own lovely cat **Cammie**. Here is an example photo of her. 😍
 
 ![My cat, Cammie](./post_request/cammie.jpg)
 
